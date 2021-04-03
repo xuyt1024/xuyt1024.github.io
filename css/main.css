@@ -15,7 +15,7 @@
     background: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     color: #000;
   }
@@ -32,7 +32,7 @@
   a:hover {
     outline: none;
     text-decoration:none;
-    color:#4fcccd;
+    color:#264866;
   }
 
   a:focus {
@@ -56,12 +56,12 @@
   }
 
   h1{
-    color: #686868;
+    color: #1a1b20;
   }
 
   h2{
-    font-size: 24px;
-    color: #686868;
+    font-size: 32px;
+    color: #1a1b20;
   }
 
   h3{
@@ -77,7 +77,7 @@
   }
 
   .btn-common {
-    font-size: 14px;
+    font-size: 16px;
     color: #0099ae;
     border: 1px solid #0099ae;
     font-family: 'Open Sans', sans-serif;
@@ -181,7 +181,7 @@
 }
 
 .search i{
-  color: #00aeef;
+  color: #d5453a;
   cursor: pointer;
   position: absolute;
   right: 10px;
@@ -203,7 +203,7 @@
   color: #818285;
   font-weight: 300;
   outline: none;
-  border: 1px solid #00aeef;
+  border: 1px solid #d5453a;
   margin-top: 20px;
   border-radius: 4px;
 }
@@ -275,7 +275,7 @@
 
 #header .navbar-nav.navbar-right >li a {
   color: #000;
-  font-size: 12px;
+  font-size: 18px;
   padding: 20px;
   text-transform: uppercase;
   font-weight: 300;
@@ -288,11 +288,11 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #00aeef;
+  color: #d5453a;
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
-  color: #00aeef;
+  color: #d5453a;
 }
 
 
@@ -308,13 +308,13 @@ ul.sub-menu {
 #header .navbar-nav li ul.sub-menu li a{
   color: #818285;
   padding: 5px 0;
-  font-size: 13px;
+  font-size: 16px;
   display: block;
   text-transform: capitalize;
 }
 
 #header .navbar-nav li ul.sub-menu li .active{
-  background: #00aeef;
+  background: #d5453a;
   color: #fff;
   position: relative;
 }
@@ -336,7 +336,7 @@ ul.sub-menu {
 
 #header .navbar-nav li ul.sub-menu li a:hover,
 #header .navbar-nav li ul.sub-menu li a:focus{
-  background: #00aeef;
+  background: #d5453a;
   color: #fff;
 }
 
@@ -384,7 +384,7 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 10px;
-  background-image: url(../images/home/footer.png);
+  background-image: url(../images/home/Footer.png);
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
@@ -494,7 +494,7 @@ ul.sub-menu {
   width: 100%;
   background-color: #4fcccd;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -545,9 +545,8 @@ ul.sub-menu {
 
 #home-slider .slide-text{
   position: absolute;
-  top: 50px;
   left: 0;
-  width: 450px;
+  width: 550px;
 }
 
 .animate-in .slide-text {
@@ -612,14 +611,43 @@ ul.sub-menu {
 
 
 #home-slider h1{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 25px;
 }
 
-#home-slider .btn-common {
-  margin-top: 20px;
+.btn-common1 {
+  margin: 10px 10px 0 0;
+  font-weight: 600;
+  color: #f6f5f1;
+  background-color: #d5453a;
+  border: 1px solid #d5453a;
+  font-size: 24px;
+  padding: 10px 30px;
+}
+.btn-common2 {
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #d5453a;
+  border: 3px solid #d5453a;
+  background-color: #f6f5f1;
 }
 
+.zx-banner{
+  background-color: #d5453a;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 500;
+  color: #f6f5f1;
+}
+
+.zx-title{
+    background-color:  #d5453a;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #f6f5f1;
+}
 #home-slider .preloader {
   position: absolute;
   left: 0;
@@ -634,7 +662,7 @@ ul.sub-menu {
   font-size: 48px;
   height: 48px;
   line-height: 48px;
-  color: #00aeef;
+  color: #d5453a;
   position: absolute;
   left: 50%;
   margin-left: -24px;
@@ -667,7 +695,7 @@ ul.sub-menu {
 }
 
 .single-service img {
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .single-service .fold {
@@ -685,12 +713,15 @@ ul.sub-menu {
 
 .action h1{
   margin-top: 0;
+  font-weight: 600;
+  font-size: 48px;
 }
 
 .action p{
-  font-size: 18px;
-  margin-bottom: 0;
-  font-weight: 300;
+  font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 0;
+    font-weight: 300;
 }
 
 .action .btn-common{
@@ -727,6 +758,7 @@ ul.sub-menu {
 
 #clients{
   padding-bottom: 45px;
+  padding-top: 30px;
 }
 
 .clients {
@@ -778,7 +810,7 @@ ul.sub-menu {
 }
 
 .single-service img {
-  height: 85px;
+  height: 100px;
 }
 
 .tour-button {
@@ -866,7 +898,7 @@ ul.sub-menu {
 
 .person-info h3 {
   font-size: 16px;
-  color: #686868;
+  color: #1a1b20;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
@@ -900,7 +932,7 @@ ul.sub-menu {
 
 .count h1{
   font-size: 60px;
-  color: #00aeef;
+  color: #d5453a;
 }
 
 .count h3{
@@ -941,7 +973,7 @@ h3.top-zero{
 }
 
 .progress-bar.progress-bar-primary{
-  background: #00aeef;
+  background: #d5453a;
 }
 
 
@@ -1089,7 +1121,7 @@ ul.elements li > i{
 
 .portfolio-filter li a {
   border-radius: 0;
-  color: #686868;
+  color: #1a1b20;
   font-size: 18px;
   font-weight: 300;
   padding: 0 25px;
@@ -1327,7 +1359,7 @@ Portfolio with right sidebar
 }
 
 .tag-cloud .nav-pills li a{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   padding: 5px 15px;
   background: #bbbbbb;
@@ -1607,7 +1639,7 @@ Blog Default
 
 .post-title a,
 .comments-number a{
-  color: #686868;
+  color: #1a1b20;
 }
 
 .post-content .post-author{
@@ -1617,7 +1649,7 @@ Blog Default
 
 .post-content  .post-author a{
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   color: #0099AE;
 }
 
@@ -1937,7 +1969,7 @@ span.stButton_gradient,
 }
 
 #map-section address a:hover {
-  color:#00AEEF
+  color:#d5453a
 }
 
 #contact-form #message{
@@ -2019,7 +2051,7 @@ span.stButton_gradient,
 .single-price .plan-price { 
   color: #fff;
   float: none;
-  font-size: 14px;
+  font-size: 16px;
   height: 110px;
   margin-bottom: 15px;
   overflow: hidden;
@@ -2297,7 +2329,7 @@ span.stButton_gradient,
   height: 100%;
   min-height: 100%;
   width: 100%;
-  color: #686868;
+  color: #1a1b20;
   font-size: 18px;
   font-weight: 300;
   padding: 100px 0;
@@ -2382,7 +2414,7 @@ span.stButton_gradient,
   height: 100%;
   min-height: 100%;
   width: 100%;
-  color: #686868;
+  color: #1a1b20;
   font-size: 18px;
   font-weight: 300;
   padding: 100px 0;
@@ -2593,7 +2625,7 @@ span.stButton_gradient,
   background-color: transparent;
   height: 52px;
   color: #fff;
-  border:2px solid #00aeef;
+  border:2px solid #d5453a;
 }
 
 #newsletter {
